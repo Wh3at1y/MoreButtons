@@ -44,6 +44,12 @@
                                     <action selector="blackColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1m1-TJ-kVh"/>
                                 </connections>
                             </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0M2-hS-xkh">
+                                <rect key="frame" x="18" y="107" width="192" height="31"/>
+                                <connections>
+                                    <action selector="changeRed:" destination="BYZ-38-t0r" eventType="valueChanged" id="B6Z-xu-W4f"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
